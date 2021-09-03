@@ -27,7 +27,7 @@ const validateProject = (req, res, next) => {
   if (!name || !description) {
     next({
       status: 400,
-      message: "missing required fields",
+      message: `missing required fields`,
     });
   } else {
     next();
