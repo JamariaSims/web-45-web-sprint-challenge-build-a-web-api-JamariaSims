@@ -13,11 +13,16 @@
     "url": "git+https://github.com/LambdaSchool/web-sprint-challenge-build-a-web-api"
   },
   "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "cli-ux": "^5.6.3",
     "express": "4.17.1",
+    "got": "^11.8.2",
     "helmet": "4.6.0",
     "heroku": "^7.59.0",
     "heroku-cli": "^7.0.9",
     "knex": "0.95.9",
+    "phoenix": "^1.6.0-rc.0",
     "sqlite3": "5.0.2"
   },
   "devDependencies": {
